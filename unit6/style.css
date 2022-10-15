@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+img{
+  height: 300px;
+}
+
+main{
+  background-color: lightgray;
+  color: orangered;
+  border: 10px;
+  border-image: url(borderimage.jfif) 30 stretch;
+}
+body{
+  background-image: url("cats.jfif");
+  background-size: cover;
+}
+#wrapper{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+ul{
+  list-style-image: url("hand");
+}
+#borderimg1 {
+  border: 10px solid transparent;
+  border-image: url(bi.jfif) 20% round;
